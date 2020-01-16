@@ -1,0 +1,26 @@
+export const state = {
+	component: null,
+	user: '',
+	currentLearnObj: null,
+	drawer: true,
+	snackbar: {
+		notifications: [],
+	},
+	progress: {
+		state: false,
+		currentProgress: 0,
+		spinner: false,
+		emulate: false,
+	},
+	currentCard: null,
+	colorCard: null,
+	audioStream: false,
+	wordIsPlaying: false,
+	upperCase: true,
+	offset: null,
+	loading: false,
+	learningArea: null,
+	IDB: null,
+	isDown: false,
+	mousePosition: null,
+}
